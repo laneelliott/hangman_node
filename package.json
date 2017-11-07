@@ -1,0 +1,20 @@
+{
+  "name": "hangman_node",
+  "version": "1.0.0",
+  "description": "A hangman game that is played using the command line and node for NU coding bootcamp.",
+  "main": "_game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laneelliott/hangman_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laneelliott/hangman_node/issues"
+  },
+  "homepage": "https://github.com/laneelliott/hangman_node#readme"
+}
