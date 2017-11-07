@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/laneelliott/hangman_node/issues"
   },
-  "homepage": "https://github.com/laneelliott/hangman_node#readme"
+  "homepage": "https://github.com/laneelliott/hangman_node#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0"
+  }
 }
