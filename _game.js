@@ -19,7 +19,7 @@ var Game = function(){
 		} else {
 			console.log(this.word.incorrectGuess(letter))
 		}
-		console.log(this.word.guessedLetters)
+		//console.log(this.word.guessedLetters)
 		this.update();
 	};
 	this.update = function(){
@@ -35,5 +35,11 @@ module.exports = Game;
 // var game = new Game();
 // game.setUpGame()
 // game.guess('t');
-// game.guess('t');
+// game.guess('a');
+// game.guess('i');
+// game.guess('b');
+// game.guess('o');
+// game.guess('p');
+// game.guess('r');
+// game.guess('w');
 // console.log(game.remainingGuesses);

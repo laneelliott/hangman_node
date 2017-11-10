@@ -1,12 +1,14 @@
 //Require Dependencies
 var Letter = require('./_letter.js');
+var randomWord = require('random-words');
 
 //Word Constructor
 var Word = function(){
 	this.currentWord = '';
 	this.guessedLetters = [];
 	this.getNewWord = function(){
-		this.currentWord = 'the'
+		this.currentWord = randomWord();
+		//console.log(this.currentWord)
 	};
 	this.incorrectGuess = function(letter){
 		//Determines if the letter has already been guessed.

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/laneelliott/hangman_node#readme",
   "dependencies": {
-    "inquirer": "^3.3.0"
+    "inquirer": "^3.3.0",
+    "random-words": "0.0.1"
   }
 }
