@@ -23,7 +23,7 @@ var Game = function(){
 		this.update();
 	};
 	this.update = function(){
-		console.log(this.word.display());
+		console.log(this.word.display() + '       Guesses Remaining: ' + this.remainingGuesses);
 	}
 };
 

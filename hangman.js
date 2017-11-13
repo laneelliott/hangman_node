@@ -19,6 +19,16 @@ function playGame(game){
 	})
 	.then(function(answer){
 		game.guess(answer.guess);
+		//check if the user won or lost.
+		if(game.word.display().indexOf('_') === -1){
+			console.log('=========================\nCongrats you won the game\n=========================');
+			return newGame();
+		} else if (game.remainingGuesses === 0){
+			//Game Over and play Again
+			console.log("\nGame Over: The word was:   " + game.word.currentWord + '\n');
+			return newGame();
+		}
+		//Recursively keep playing the game until one of the win conditions is met.
 		playGame(game);
 	})
 }

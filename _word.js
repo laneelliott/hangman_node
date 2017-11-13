@@ -8,6 +8,7 @@ var Word = function(){
 	this.guessedLetters = [];
 	this.getNewWord = function(){
 		this.currentWord = randomWord();
+		this.guessedLetters = []
 		//console.log(this.currentWord)
 	};
 	this.incorrectGuess = function(letter){
